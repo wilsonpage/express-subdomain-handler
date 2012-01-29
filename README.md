@@ -26,6 +26,6 @@ handler to look like this.
 			res.send(req.params.thesubdomain);
 
 		});
-
+  
 
 _If you like my stuff, [follow me on Twitter](http://twitter.com/wilsonpage)_
