@@ -13,7 +13,7 @@ subdomains and writes them into the Express req.url. This means you can write sp
 1. Add express-subdomain-handler to your express middleware (stack before any routes are specified)
 
 		app.use( require('express-subdomain-handler')({ baseUrl: 'example.com', prefix: 'myprefix', logger: true }) );  
-sfvsf
+&nbsp;
 
 2. Setup routes to catch subdomain urls so for `http://mysubdomain.example.com/homepage` I would write my route
 handler to look like this.
