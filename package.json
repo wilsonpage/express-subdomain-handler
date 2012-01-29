@@ -1,0 +1,9 @@
+{
+	"name": "express-subdomain-handler",
+	"version": "0.0.1",
+	"author": "Wilson Page",
+	"description": "A tiny module to handle subdomains nicely in Express",
+	"homepage": "http://github.com/1602/orm",
+	"engines": ["node >= 0.2.2"],
+	"main": "lib/esh"
+}
