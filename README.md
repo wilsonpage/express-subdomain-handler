@@ -3,14 +3,10 @@ subdomains and writes them into the Express req.url. This means you can write sp
 
 ##Examples
 
-`http://mysubdomain.example.com` => `/subdomain/mysubdomain/`
-
-`http://myexcellentsubdom.example.com/homepage` => `/subdomain/myexcellentsubdom/homepage`
-
-`http://first.second.example.com` => `/subdomain/first/second/`
-
-`http://first.second.example.com/another/page` => `/subdomain/first/second/another/page`
-
+`http://mysubdomain.example.com` => `'/subdomain/mysubdomain/'`  
+`http://myexcellentsubdom.example.com/homepage` => `'/subdomain/myexcellentsubdom/homepage'`  
+`http://first.second.example.com` => `'/subdomain/first/second/'`  
+`http://first.second.example.com/another/page` => `'/subdomain/first/second/another/page'`  
 
 ##Usage
 
