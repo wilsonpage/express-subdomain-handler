@@ -1,0 +1,121 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+info using npm@1.1.0-beta-10
+info using node@v0.6.7
+verbose config file /Users/wilsonpage/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose publish [ '.' ]
+verbose caching /Users/wilsonpage/Documents/E/express-subdomain-handler/package.json
+verbose loadDefaults express-subdomain-handler@0.0.2
+info prepublish express-subdomain-handler@0.0.2
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', path: '.', href: '.' }
+verbose caching package.json
+verbose loadDefaults express-subdomain-handler@0.0.2
+verbose pack /Users/wilsonpage/Documents/E/express-subdomain-handler
+verbose pack /Users/wilsonpage/Documents/E/express-subdomain-handler /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/tmp.tgz
+silly makeList /Users/wilsonpage/Documents/E/express-subdomain-handler
+silly dir, dirLen [ '/Users/wilsonpage/Documents/E/express-subdomain-handler',
+silly dir, dirLen   56 ]
+verbose tarball /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/tmp.tgz
+verbose parent /Users/wilsonpage/Documents/E/express-subdomain-handler
+verbose mkdir (expected) error ENOENT, no such file or directory '/var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm'
+verbose mkdir done: /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm/express-subdomain-handler
+silly asyncMap in gTP /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm/express-subdomain-handler/index.js
+silly asyncMap in gTP /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm/express-subdomain-handler/package.json
+silly asyncMap in gTP /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm/express-subdomain-handler/README.md
+silly asyncMap in gTP /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm/express-subdomain-handler/lib
+silly asyncMap in gTP /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm/express-subdomain-handler/lib/esh.js
+silly asyncMap in gTP /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm/express-subdomain-handler/lib/utils.js
+verbose gunzed /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm/express-subdomain-handler
+verbose rm'ed /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package
+verbose renamed [ '/var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/___package.npm/express-subdomain-handler',
+verbose renamed   '/var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package' ]
+verbose caching /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package/package.json
+verbose loadDefaults express-subdomain-handler@0.0.2
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package/package.json
+verbose pack /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package
+verbose pack /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package.tgz
+silly makeList /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package
+silly dir, dirLen [ '/var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package',
+silly dir, dirLen   109 ]
+verbose tarball /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package.tgz
+verbose parent /var/folders/bk/g0zb581n7xx2g0nm_9f70vrc0000gn/T/npm-1327858810928/1327858810928-0.33709945948794484/package
+verbose mkdir (expected) error ENOENT, no such file or directory '/Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm'
+verbose mkdir done: /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar undefined
+silly asyncMap in gTP /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm/package
+silly asyncMap in gTP /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm/package/index.js
+silly asyncMap in gTP /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm/package/package.json
+silly asyncMap in gTP /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm/package/README.md
+silly asyncMap in gTP /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm/package/lib
+silly asyncMap in gTP /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm/package/lib/esh.js
+silly asyncMap in gTP /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm/package/lib/utils.js
+verbose gunzed /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm/package
+verbose rm'ed /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package
+verbose renamed [ '/Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/___package.npm/package',
+verbose renamed   '/Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package' ]
+verbose caching /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package/package.json
+verbose loadDefaults express-subdomain-handler@0.0.2
+silly updated sha bytes 1734
+info shasum 2a9b6c9375408e55d6403743f7c4a6ff35d1f1d9
+info shasum /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package.tgz
+verbose from cache /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package/package.json
+verbose chmod /Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package.tgz 644
+verbose chown [ '/Users/wilsonpage/.npm/express-subdomain-handler/0.0.2/package.tgz',
+verbose chown   501,
+verbose chown   20 ]
+silly publish { name: 'express-subdomain-handler',
+silly publish   version: '0.0.2',
+silly publish   author: { name: 'Wilson Page' },
+silly publish   description: 'A tiny module to handle subdomains nicely in Express',
+silly publish   homepage: 'http://github.com/WilsonPage/express-subdomain-handler',
+silly publish   engines: [ 'node >= 0.2.2', node: ' >= 0.2.2' ],
+silly publish   main: 'lib/esh',
+silly publish   _npmUser: { name: 'wilsonpage', email: 'wilsonpage@me.com' },
+silly publish   _id: 'express-subdomain-handler@0.0.2',
+silly publish   dependencies: {},
+silly publish   devDependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.1.0-beta-10',
+silly publish   _nodeVersion: 'v0.6.7',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: '2a9b6c9375408e55d6403743f7c4a6ff35d1f1d9',
+silly publish      tarball: 'http://registry.npmjs.org/express-subdomain-handler/-/express-subdomain-handler-0.0.2.tgz' } }
+verbose raw, before any munging express-subdomain-handler
+verbose url resolving [ 'https://registry.npmjs.org/', './express-subdomain-handler' ]
+verbose url resolved https://registry.npmjs.org/express-subdomain-handler
+http PUT https://registry.npmjs.org/express-subdomain-handler
+http 409 https://registry.npmjs.org/express-subdomain-handler
+verbose raw, before any munging express-subdomain-handler
+verbose url resolving [ 'https://registry.npmjs.org/', './express-subdomain-handler' ]
+verbose url resolved https://registry.npmjs.org/express-subdomain-handler
+http GET https://registry.npmjs.org/express-subdomain-handler
+http 200 https://registry.npmjs.org/express-subdomain-handler
+info Already published express-subdomain-handler@0.0.2
+verbose uploading bin dists []
+ERR! publish fail Cannot publish over existing version.
+ERR! publish fail Bump the 'version' field, set the --force flag, or
+ERR! publish fail     npm unpublish 'express-subdomain-handler@0.0.2'
+ERR! publish fail and try again
+ERR! 
+ERR! System Darwin 11.2.0
+ERR! command "node" "/usr/local/bin/npm" "publish"
+ERR! cwd /Users/wilsonpage/Documents/E/express-subdomain-handler
+ERR! node -v v0.6.7
+ERR! npm -v 1.1.0-beta-10
+ERR! code EPUBLISHCONFLICT
+ERR! message publish fail
+verbose exit [ 1, true ]
