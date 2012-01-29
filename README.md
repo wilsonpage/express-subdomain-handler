@@ -9,11 +9,11 @@ subdomains and writes them into the Express req.url. This means you can write sp
 `http://myexcellentsubdom.example.com/homepage` => `'/subdomain/myexcellentsubdom/homepage'`  
 `http://first.second.example.com` => `'/subdomain/first/second/'`  
 `http://first.second.example.com/another/page` => `'/subdomain/first/second/another/page'`  
-<br/>
+
 ##Installation
 
 	npm install express-subdomain-handler
-<br/>
+
 ##Usage
 
 Add express-subdomain-handler to your express middleware stack (before your routes are specified). You need to specify
@@ -31,7 +31,7 @@ handler to look like this.
 		res.send(req.params.thesubdomain);
 
 	});
-<br/>
+
 ##Follow me
 
 If you like my stuff, [follow me on Twitter](http://twitter.com/wilsonpage)
