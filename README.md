@@ -8,6 +8,10 @@ subdomains and writes them into the Express req.url. This means you can write sp
 `http://first.second.example.com` => `'/subdomain/first/second/'`  
 `http://first.second.example.com/another/page` => `'/subdomain/first/second/another/page'`  
 
+##Installation
+
+	npm install express-subdomain-handler
+
 ##Usage
 
 1. Add express-subdomain-handler to your express middleware stack (before your routes are specified). You need to specify
