@@ -11,14 +11,14 @@ subdomains and writes them into the Express req.url. This means you can write sp
 ##Usage
 
 1. Add express-subdomain-handler to your express middleware (stack before any routes are specified)  
-	app.use( require('express-subdomain-handler')({ baseUrl: 'example.com', prefix: 'myprefix', logger: true }) );  
+		app.use( require('express-subdomain-handler')({ baseUrl: 'example.com', prefix: 'myprefix', logger: true }) );  
 
 2. Setup routes to catch subdomain urls so for `http://mysubdomain.example.com/homepage` I would write my route
 handler to look like this.
 
-	app.get('/myprefix/:thesubdomain/thepage', function(req, res, next){
+		app.get('/myprefix/:thesubdomain/thepage', function(req, res, next){
 
-		// for the example url this will print 'mysubdomain'
-		res.send(req.params.thesubdomain);
+			// for the example url this will print 'mysubdomain'
+			res.send(req.params.thesubdomain);
 
-	});
+		});
