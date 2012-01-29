@@ -10,7 +10,7 @@ subdomains and writes them into the Express req.url. This means you can write sp
 
 ##Usage
 
-1. Add express-subdomain-handler to your express middleware (stack before any routes are specified)
+1. Add express-subdomain-handler to your express middleware stack (before your routes are specified)
 
 		app.use( require('express-subdomain-handler')({ baseUrl: 'example.com', prefix: 'myprefix', logger: true }) );  
 &nbsp;
