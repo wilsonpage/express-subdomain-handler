@@ -10,7 +10,9 @@ subdomains and writes them into the Express req.url. This means you can write sp
 
 ##Usage
 
-1. Add express-subdomain-handler to your express middleware stack (before your routes are specified)
+1. Add express-subdomain-handler to your express middleware stack (before your routes are specified). You need to specify
+what the base url of your site is ('example.com', 'example.local', etc), what you what subdomain urls to be prefixed with
+('subdomain' by default) and whether you want logging turned on (false by default)
 
 		app.use( require('express-subdomain-handler')({ baseUrl: 'example.com', prefix: 'myprefix', logger: true }) );  
 &nbsp;
@@ -24,3 +26,6 @@ handler to look like this.
 			res.send(req.params.thesubdomain);
 
 		});
+&nbsp;
+
+_If you like my stuff, [follow me on Twitter](http://twitter.com/wilsonpage)_
