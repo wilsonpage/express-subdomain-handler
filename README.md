@@ -1,7 +1,7 @@
 ##Intro
 
 Express subdomain handler takes all the headache out of dynamic subdomain routing in [Express](http://expressjs.com). It captures the contents of any
-subdomains and writes them into the Express req.url. This means you can write specific route handlers for subdomain urls.
+subdomain and writes them into the Express req.url. This means you can write specific route handlers for subdomain urls.
 
 ##Examples
 
