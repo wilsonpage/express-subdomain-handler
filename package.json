@@ -1,6 +1,6 @@
 {
 	"name": "express-subdomain-handler",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": "Wilson Page",
 	"description": "A tiny module to handle subdomains nicely in Express",
 	"homepage": "http://github.com/WilsonPage/express-subdomain-handler",
