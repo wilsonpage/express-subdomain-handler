@@ -4,6 +4,10 @@
 	"author": "Wilson Page",
 	"description": "A tiny module to handle subdomains nicely in Express",
 	"homepage": "http://github.com/WilsonPage/express-subdomain-handler",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/WilsonPage/express-subdomain-handler"
+	},
 	"engines": ["node >= 0.2.2"],
 	"main": "lib/esh"
 }
